@@ -49,7 +49,6 @@ const ProfilePage = () => {
         throw new Error(error);
       }
     },
-    retry: false,
   });
 
   const { isUpdatingProfile, updateProfile } = useUpdateUserProfile();
